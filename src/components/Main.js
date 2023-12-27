@@ -103,19 +103,19 @@ function ReactSimplyCarouselExample() {
           
           <div className="box1">
             <div className="card1">
-              <img className="logo" src="./images/cloud.png" alt="cloud"/>
+              <img className="logo" src="./images/cloud.PNG" alt="cloud"/>
               <h4>Green Cloud</h4>
               <p>Empowering Growth Across the Digital Landscape. In a data-driven world, we tackle the challenge of sustainable data storage. Our eco-friendly Green Cloud platform offers efficient and secure storage tailored to Healthcare, Government Agencies, and E-Commerce. Reduce your carbon footprint while ensuring data security.</p>
               <button type="button" className="learnMoreButton">&#129154;</button>
             </div>
             <div className="card2">
-              <img className="logo" src="./images/subcriptions.png" alt="subcriptions"/>
+              <img className="logo" src="./images/subcriptions.PNG" alt="subcriptions"/>
               <h4>Business Subscription Solutions</h4>
               <p>Embrace the Future of Business. Experience seamless connectivity, unmatched security, and real-time monitoring for optimal operations and sustainable growth. Our advanced subscription solutions empower your business in the digital era, keeping you ahead of the competition.</p>
               <button type="button" className="learnMoreButton">&#129154;</button>
             </div>
             <div className="card3">
-              <img className="logo" src="./images/digitalmarketting.png" alt="digitalmarketting"/>
+              <img className="logo" src="./images/digitalmarketting.PNG" alt="digitalmarketting"/>
               <h4>Digital Marketing</h4>
               <p>Navigating the Dynamic Digital Landscape. From online advertising to social networks, we tailor your digital strategy for success. Discover effective tools and platforms aligned with your unique goals. Let us guide you towards triumph in the fast-paced world of digital marketing.</p>
               <button type="button" className="learnMoreButton">&#129154;</button>
@@ -123,19 +123,19 @@ function ReactSimplyCarouselExample() {
           </div>
           <div className="box2">
             <div className="card4">
-              <img className="logo" src="./images/itsolution.png" alt="itsolution"/>
+              <img className="logo" src="./images/itsolution.PNG" alt="itsolution"/>
               <h4>IT Solutions</h4>
               <p>Transforming Your Business with Seamless Technology. Experience comprehensive IT services, from strategic planning to implementation and support. Our robust solutions offer unmatched connectivity and real-time monitoring for optimal operations, simplifying your business processes. </p>
               <button type="button" className="learnMoreButton">&#129154;</button>
             </div>
             <div className="card5">
-              <img className="logo" src="./images/esg.png" alt="esg"/>
+              <img className="logo" src="./images/esg.PNG" alt="esg"/>
               <h4>Sustainability and ESG Consultancy</h4>
               <p>Driving Positive Impact. Gain expert guidance in Environmental, Social, and Governance practices. Navigate sustainability complexities, enhance brand reputation, and unlock long-term value. Together, we create a sustainable future for your business and the world.</p>
               <button type="button" className="learnMoreButton">&#129154;</button>
             </div>
             <div className="card6">
-              <img className="logo" src="./images/brandconsultancy.png" alt="brandconsultancy"/>
+              <img className="logo" src="./images/brandconsultancy.PNG" alt="brandconsultancy"/>
               <h4>Brand Consultancy</h4>
               <p>Elevate Your Brand for Success. Empower your brand with data-driven analysis and strategic positioning. Enhance consumer perception across multiple channels, and sustain market dominance. Lead the change with our comprehensive brand strategies.  </p>
               <button type="button" className="learnMoreButton">&#129154;</button>
@@ -148,19 +148,19 @@ function ReactSimplyCarouselExample() {
           <p>We help build your Trade Mark with Technology, Marketing & Creativity</p>
           <div className="box1">
             <div className="card1">
-              <img className="logo" src="./images/contentmrktng.png" alt="contentmrktng" style={{height:70 }}/>
+              <img className="logo" src="./images/contentmrktng.PNG" alt="contentmrktng" style={{height:70 }}/>
               <h4>Content Marketing</h4>
               <p>We create captivating content that sells! Our writers are here to tell your brand's story which engages the audience and drives action. </p>
               <button type="button" className="learnMoreButton">&#129154;</button>
             </div>
             <div className="card2">
-              <img className="logo" src="./images/digital.png" alt="digital"/>
+              <img className="logo" src="./images/digital.PNG" alt="digital"/>
               <h4>Digital PR</h4>
               <p>Make headlines that echo! Our PR experts boost your brand's visibility, credibility and conversations across the digital world.</p>
               <button type="button" className="learnMoreButton">&#129154;</button>
             </div>
             <div className="card3">
-              <img className="logo" src="./images/performance.png" alt="performancemarketting"/>
+              <img className="logo" src="./images/performance.PNG" alt="performancemarketting"/>
               <h4>Performance Marketing</h4>
               <p>Skyrocket to success! Our data-driven strategies fuel remarkable growth and deliver a fantastic return on investment (ROI).</p>
               <button type="button" className="learnMoreButton">&#129154;</button>
@@ -168,19 +168,19 @@ function ReactSimplyCarouselExample() {
           </div>
           <div className="box2">
             <div className="card4">
-              <img className="logo" src="./images/digitalmarketting.png" alt="digitalmarketting" style={{height:50 }}/>
+              <img className="logo" src="./images/digitalmarketting.PNG" alt="digitalmarketting" style={{height:50 }}/>
               <h4>Social Media</h4>
               <p>Likes to love, your social journey starts here! Connect, engage, and build a loyal community with the power of social media.</p>
               <button type="button" className="learnMoreButton">&#129154;</button>
             </div>
             <div className="card5">
-              <img className="logo" src="./images/videoprductn.png" alt="videoprductn"/>
+              <img className="logo" src="./images/videoprductn.PNG" alt="videoprductn"/>
               <h4>Video Production</h4>
               <p>Lights, camera, action! Turn your vision into captivating stories. Our visually stunning and emotionally compelling videos take your brand to new heights.</p>
               <button type="button" className="learnMoreButton">&#129154;</button>
             </div>
             <div className="card6">
-              <img className="logo" src="./images/webapp.png" alt="webapp" style={{height:30 }}/>
+              <img className="logo" src="./images/webapp.PNG" alt="webapp" style={{height:30 }}/>
               <h4>Web & APP Design</h4>
               <p>Crafting experiences beyond compare. Step into a world of seamless design that delivers exceptional user experiences.</p>
               <button type="button" className="learnMoreButton">&#129154;</button>
