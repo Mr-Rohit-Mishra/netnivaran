@@ -1,13 +1,495 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  margin:0px;
+  padding:0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.box1 .logo{
+  text-align: center;
+  width:64px;
+  height:50px;
 }
+.box2 .logo{
+  text-align: center;
+  width:64px;
+  height:60px;
+}
+
+.learnMoreButton{
+  color:#fff;
+  background-color: orangered;
+  border: 0;
+  border-radius: 25px;
+  width:150px;
+  height:50px;
+  font-size: 20px;
+}
+
+.contactus{
+  background-color: rgb(39, 39, 230);
+  color:#fff;
+  width:120px;
+  height:40px;
+  font-size: 16px;
+  font-family: 'Arial', Regular ;
+  border:0;
+  border-radius: 25px;
+  cursor:pointer;
+}
+
+.submitButton{
+  color:#fff;
+  background-color: blue;
+  border: 0;
+  width:150px;
+  height:50px;
+  font-size: 20px;
+}
+input{
+  width:350px;
+  height:50px;
+}
+
+h1,h2,h3,h4,h5,h6{
+  color:#fff;
+  font-size: 16px;
+  line-height: 2;
+}
+
+p{
+  font-size: 13px;
+  line-height: 2;
+}
+
+
+/*---------------- navbar start ----------------*/
+.navbar{
+  position: fixed;
+  width:100%;
+  height:6rem;
+  z-index: 999;
+  display:flex;
+  align-self: center;
+  justify-content:space-between;
+  background-color:#0E0D0D;
+}
+
+.navbutton {
+  width:100px;
+  height:50px;
+  margin:auto 1.5rem;
+  cursor: pointer;
+  display:none;
+  
+}
+
+#check{
+  display:none;
+}
+
+.mainlogo{
+  margin-left:1.5rem;
+  width:150px;
+  height:auto;
+}
+
+#navul{
+  font-family: 'Arial', Regular ;
+  width:85%;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  list-style: none;
+  margin:auto 0;  
+}
+
+#navul li{
+  display:block;
+  position: relative;
+}
+#navul li .dropdown li{
+  display:block;
+  color:#000;
+  line-height: 2;
+}
+
+#navul li .dropdown{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 2px;
+  padding:1rem 1rem;
+  width:15rem;
+  background-color: #fff;
+  display:none;
+  position: absolute;
+  z-index: 999;
+}
+
+#navul li .dropdown li:hover{
+  color: orangered;
+}
+
+#navul li:hover ul.dropdown{
+  display: block;
+}
+
+#navul a{
+  text-decoration: none;
+  color:white;
+}
+
+#navul a:hover{
+  color:orangered;
+}
+#remove{
+  display:none;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .navbutton{
+    display:block;
+  }
+
+  #navul{
+    flex-direction: column;
+    position:fixed;
+    width:30%;
+    height:600px;
+    background: #2c3e50;
+    top:6rem;
+    right:0;
+    text-align: center;
+    align-items: center;
+    margin:auto; 
+    display:none;/****remove this to see navul*******************************************************************/
+  }
+
+  #navul li{
+    display:block;
+  }
+
+  #check:checked ~ ul{
+    left:0;
+  }
+
+  #remove{
+    display:block;
+    border:1px solid white;
+    padding:0.5rem;
+    border-radius: 50%;
+  }
+
+  
+
+  
+}
+
+/*-------------- navbar End ----------- */
+
+
+
+/* ------------------Banner start------------------ */
+
+.carousel-container{
+  padding-top: 6rem;
+  height:570px;
+  z-index: -55;
+}
+
+
+.slide{
+  width:100vw;
+  height:600px;
+  background: linear-gradient(180deg,rgba(0,0,0,.8),transparent);
+  background-repeat: no-repeat;
+}
+
+.slide1,.slide2,.slide3,.slide4,.slide5{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5vw;
+}
+.slide1{
+  background-image:
+    linear-gradient(to bottom, rgba(40, 40, 41, 0.52), rgba(36, 35, 36, 0.73)),
+    url('./images/homebanner.png');
+}
+
+.slide2{
+  background-image:
+  linear-gradient(to bottom, rgba(40, 40, 41, 0.52), rgba(36, 35, 36, 0.73)),
+  url('./images/homebanner.png');
+}
+
+.slide3{
+  background-image:
+  linear-gradient(to bottom, rgba(40, 40, 41, 0.52), rgba(36, 35, 36, 0.73)),
+  url('./images/homebanner.png');
+}
+
+
+.slide4{
+  background-image:
+  linear-gradient(to bottom, rgba(40, 40, 41, 0.52), rgba(36, 35, 36, 0.73)),
+  url('./images/homebanner.png');
+}
+ 
+.slide5{
+  background-image:
+  linear-gradient(to bottom, rgba(40, 40, 41, 0.52), rgba(36, 35, 36, 0.73)),
+  url('./images/homebanner.png');
+}
+
+.slide h4,p{
+  color:#fff;
+}
+
+.slide h4{
+  font-size: 50px;
+  font-family: 'Arial', Regular ;
+}
+
+.slide p{
+  font-size: 20px;
+  font-family: 'Arial', Regular ;
+}
+/* ------------------Banner end------------------ */
+
+
+/* --------------------------section start-------------------------- */
+.section{
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.section h2{
+  margin-top: 40px;
+  color:#b03c00;
+  font-size: 40px;
+  font-family: 'Arial', Regular ;
+}
+.section p{
+  color:#b03c00;
+  font-size: 20px;
+  font-family: 'Arial', Regular ;
+}
+
+
+.box1{
+  margin-top:60px;
+  display:flex;
+  justify-content: space-around;
+}
+.box2{
+  margin-top:60px;
+  margin-bottom: 60px;
+  display:flex;
+  justify-content: space-around;
+}
+
+.card1,.card2,.card3,.card4,.card5,.card6{
+  width:20vw;
+  background-color:#fff;
+  padding:2rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.card1 h4, .card2 h4,.card3 h4,.card4 h4,.card5 h4,.card6 h4{
+  color:#000;
+  font-size: 20px;
+  font-family: 'Arial', Regular ;
+}
+
+.card1 p, .card2 p,.card3 p,.card4 p,.card5 p,.card6 p{
+  font-size: 16px;
+  font-family: 'Arial', Regular ;
+  color:#000;
+}
+
+.section button{
+  width: 50px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .box1{
+    margin-top: 0px;
+    display:grid;
+    grid-template-columns: auto auto;
+  }
+  .box2{
+    margin-top: 0px;
+    display:grid;
+    grid-template-columns: auto auto;
+  }
+
+  .card1,.card2,.card3,.card4,.card5,.card6{
+    margin-top:1rem;
+  }
+}
+/* --------------------------section end-------------------------- */
+
+
+/* ---------------- main start start ----------------*/
+.booking-container{
+  width:80%;
+  margin: auto;
+  border-radius: 10px;
+  padding:4rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
+.upper{
+  display:flex;
+  justify-content: space-evenly;
+
+}
+
+.upper input{
+  margin:0 2rem;
+}
+
+.form input,select{
+  
+  border:1px solid blue;
+  border-radius: 5px;
+  padding: 0.4rem;
+}
+
+label{
+  color:orangered;
+  font-size: 18 px;
+}
+
+.lower{
+  margin: 2rem  0rem;
+  display:flex;
+  justify-content: space-between;
+}
+
+#number{
+  width:30%;
+  margin-top:1.5rem;
+}
+
+.form .button{
+  width:20%;
+  height:5rem;
+  color:#fff;
+  background-color: orangered;
+  border-radius: 10px;
+  border: 2px solid orangered;
+  margin:auto;
+}
+
+.uppercase{
+  width:80%;
+  height:100%;
+  margin: 2rem auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding:2rem 2rem;
+}
+
+textarea{
+  width:100%;
+}
+/*---------------- main end ----------------*/
+
+
+/* -------------------aboutus start-------------------- */
+.displaycard{
+  background-color:darkkhaki;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin:2rem 2rem;
+  padding-top: 1rem;
+}
+.card-container .card{
+  width:20rem;
+  margin:2rem 0;
+}
+/* -------------------aboutus end-------------------- */
+
+
+
+/* ----------------------------About start------------------------------ */
+.breadcrumb{
+  height:5rem;
+  margin:1rem 1rem;
+  align-items: center;
+  padding:auto 0;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* ----------------------------About end------------------------------ */
+
+
+/*---------------- Footer start ----------------*/
+.footer{
+  font-family: 'Arial', Regular ;
+  background-color: rgb(14, 13, 13);
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding:2rem;
+}
+
+.row1{
+  color:#c9c9ce;
+  width:30%;
+}
+
+.row2,.row3,.row4{
+  color:#c9c9ce;
+  width:20%;
+}
+
+.footerul li{
+  list-style: none;
+  font-size: 16px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+#social-logo{
+  margin-top:1rem;
+  margin-right:1rem;
+  width:30px;
+}
+
+.disclamer{
+  align-items: center;
+  font-family: 'Arial', Regular ;
+  width:100%;
+  height:5vh;
+  color:#c9c9ce;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 1px;
+}
+
+iframe{
+  width:98%;
+  height:300px;
+  border:0;
+}
+
+/*---------------- footer start ----------------*/
