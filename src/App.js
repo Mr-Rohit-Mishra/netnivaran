@@ -15,7 +15,8 @@ export default class App extends Component {
         <Header />
 
           <Routes>
-            <Route exact path="/" element={<Main />}/>
+            <Route exact path="/Main" element={<Main />}/>
+            <Route exact path="/About" element={<About/>}/>
           </Routes>
 
         <Footer/>
