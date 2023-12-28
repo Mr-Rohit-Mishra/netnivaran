@@ -27,7 +27,7 @@ export default class Header extends Component {
       <div className="navbar">
         <img className="mainlogo" src="netnivaranlogo.png" alt="logo"/>
         <ul id="navul">
-          <li><NavLink to="/" className="active">Home</NavLink></li>
+          <li><NavLink to="/netnivaran" className="active">Home</NavLink></li>
           <li><NavLink to="/About">US</NavLink></li>
           <li><NavLink to="/About">IT Solution &#11167;</NavLink>
             <ul className="dropdown">
