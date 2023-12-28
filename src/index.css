@@ -424,16 +424,77 @@ textarea{
 
 
 /* ----------------------------About start------------------------------ */
-.breadcrumb{
-  height:5rem;
-  margin:1rem 1rem;
-  align-items: center;
-  padding:auto 0;
-  display: flex;
-  justify-content: center;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+.container{
+  padding-top: 5rem;
+  
 }
 
+.breadcrumb{
+  background-image: url('./images/aboutus.jpg');
+  background-repeat: no-repeat;
+  height:510px;
+  padding-top:10rem;
+}
+
+.container .breadcrumb h2{
+  color:orangered;
+  text-align: left;
+  font-size: 40px;
+  font-family: 'Arial', Regular ;
+}
+.container .breadcrumb p{
+  color:#000;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  font-family: 'Arial', Regular ;
+}
+.container .breadcrumb .contactus{
+  margin-top: 2rem;
+  margin-left:5rem;
+}
+
+.container h2{
+  text-align: center;
+  padding:0px 80px;
+  font-size: 32px;
+  font-family: 'Arial', Regular ;
+  color:#000;
+
+}
+.container p{
+  display:flex;
+  justify-content: center;
+  padding:10px 80px;
+  color:#000;
+  font-size: 18px;
+  font-family: 'Arial', Regular ;
+}
+
+
+.foundersection{
+  width:100%;
+  margin-top:60px;
+  margin-bottom:60px;
+  display:flex;
+  background-color: #5d5bd4;
+}
+
+.foundersection image{
+  display:flex;
+  flex-direction: column;
+  width:30%;
+}
+.foundersection .founderthought{
+  display:flex;
+  flex-direction: column;
+  width:70%;
+}
+
+.foundersection .founderthought p{
+  padding:0px;
+}
 /* ----------------------------About end------------------------------ */
 
 
