@@ -10,22 +10,8 @@ export default class Header extends Component {
     return (
 
       <>
-       
-
-
-
-
-
-
-
-
-
-
-
-
-
       <div className="navbar">
-        <img className="mainlogo" src="netnivaranlogo.png" alt="logo"/>
+        <img src="netnivaranlogo.png" alt="logo" className="mainlogo"/>
         <ul id="navul">
           <li><NavLink to="/" className="active">Home</NavLink></li>
           <li><NavLink to="/About">US</NavLink></li>
