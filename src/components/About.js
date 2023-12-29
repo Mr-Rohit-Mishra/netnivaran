@@ -25,7 +25,8 @@ export default class About extends Component {
           <p>At Netnivaran, we are more than just a digital services agency.We are catalysts for transformation, embracing the challenges of the digital world while upholding our commitment to a greener future. Join us on this journey towards sustainable growth, where technology, creativity, and values converge to create a better tomorrow for all.</p>
           <div className="foundersection">
             <div className="founderimage">
-              <img src="sanjeev.jpeg" alt="founderimage"/>
+              <img src="sanjeev.jpeg" alt="founderimage" style={{height:'60px' , width: '40px'}}/>
+              
               <p>Sanjeev Kumar (Founder)</p>
               <div className="Social-links">
                 <a href="/"><img id="social-logo" src="fblogo.png" alt="Facebook"/></a>
