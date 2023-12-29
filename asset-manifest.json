@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/netnivaran/static/css/main.956533a1.css",
-    "main.js": "/netnivaran/static/js/main.25d111d3.js",
+    "main.css": "/netnivaran/static/css/main.e60a1586.css",
+    "main.js": "/netnivaran/static/js/main.619d8dd6.js",
     "static/js/787.3802a5dd.chunk.js": "/netnivaran/static/js/787.3802a5dd.chunk.js",
     "static/media/homebanner.png": "/netnivaran/static/media/homebanner.4cc728753daa346e259d.png",
     "static/media/aboutus.jpg": "/netnivaran/static/media/aboutus.327b6c55a41ec39763b7.jpg",
+    "static/media/esgg.jpg": "/netnivaran/static/media/esgg.e35b784b2134e7cfe182.jpg",
     "index.html": "/netnivaran/index.html",
-    "main.956533a1.css.map": "/netnivaran/static/css/main.956533a1.css.map",
-    "main.25d111d3.js.map": "/netnivaran/static/js/main.25d111d3.js.map",
+    "main.e60a1586.css.map": "/netnivaran/static/css/main.e60a1586.css.map",
+    "main.619d8dd6.js.map": "/netnivaran/static/js/main.619d8dd6.js.map",
     "787.3802a5dd.chunk.js.map": "/netnivaran/static/js/787.3802a5dd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.956533a1.css",
-    "static/js/main.25d111d3.js"
+    "static/css/main.e60a1586.css",
+    "static/js/main.619d8dd6.js"
   ]
 }
