@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import{NavLink}from "react-router-dom";
 
 export default class Footer extends Component {
   render() {
@@ -10,14 +11,14 @@ export default class Footer extends Component {
                     
                 </div>
                 <ul className="footerul">
-                    <li><img src="netnivaranlogo.png" alt="footerlogo"/></li>
+                    <li><NavLink to="/" className="active"><img src={process.env.PUBLIC_URL + '/netnivaranlogo.png'} alt="footerlogo"/></NavLink></li>
                     <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14015.490548692067!2d77.25875!3d28.573587!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3a390ca70ff%3A0x4bb87d93a08386ee!2sNetNivaran%20Internet%20Services%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1702897752662!5m2!1sen!2sin"  allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                     <li><p>101 2nd Floor, Kundan Kutir, <br/>Ashram Chowk, New Delhi, <br/>Delhi 110014</p></li>
                     <div className="Social-links">
-                        <a href="/"><img id="social-logo" src="fblogo.png" alt="Facebook"/></a>
-                        <a href="/"><img id="social-logo" src="linkedinlogo.png" alt="Linkedin"/></a>
-                        <a href="/"><img id="social-logo" src="twitterlogo.png" alt="Twitter"/></a>
-                        <a href="/"><img id="social-logo" src="instagramlogo.jpg" alt="Instagram"/></a>
+                        <NavLink to="/"><img id="social-logo" src={process.env.PUBLIC_URL + '/fblogo.png'} alt="Facebook"/></NavLink>
+                        <NavLink to="/"><img id="social-logo" src={process.env.PUBLIC_URL + '/linkedinlogo.png'} alt="Linkedin"/></NavLink>
+                        <NavLink to="/"><img id="social-logo" src={process.env.PUBLIC_URL + '/twitterlogo.png'} alt="Twitter"/></NavLink>
+                        <NavLink to="/"><img id="social-logo" src={process.env.PUBLIC_URL + '/instagramlogo.jpg'} alt="Instagram"/></NavLink>
                     </div>
                 </ul>
                 

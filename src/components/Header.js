@@ -10,7 +10,7 @@ export default class Header extends Component {
 
       <>
       <div className="navbar">
-        <img src="netnivaranlogo.png" alt="logo" className="mainlogo"/>
+        <NavLink to="/" className="active"><img src={process.env.PUBLIC_URL + '/netnivaranlogo.png'} alt="logo" className="mainlogo"/></NavLink>
         <ul id="navul">
           <li><NavLink to="/" className="active">Home</NavLink></li>
           <li><NavLink to="/About">US</NavLink></li>
@@ -59,7 +59,6 @@ export default class Header extends Component {
               <li>Testimonials</li>
             </ul>
           </li>
-          <li><NavLink to="/">CO<sub>2</sub> Calculator</NavLink></li>
           <li><NavLink to="/"><button type="button" className="contactus">Contact Us</button></NavLink></li>
           <img src="bar.png" alt="images" id="remove"/>
         </ul>
