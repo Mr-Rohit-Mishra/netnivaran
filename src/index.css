@@ -485,18 +485,32 @@ textarea{
 
 /* -------------------ESG start-------------------- */
 
-.esgcontainer{
-  padding-top:6rem;
-  padding-bottom:60px;
-  width:100%;
-  height:600px;
-  background-image: url('./images/esg.jpg');
-  background-size: cover;
+.esgimgcontainer{
+  padding-bottom:30px;
+  height: 400px;
+  width:100vw;
+  background-image: url('./images/esgg.jpg');
+  background-size: contain;
   background-repeat: no-repeat;
 }
-.esgcontainer img{
-  padding-top: 15rem;
-  
+
+.esgcontent p{
+  padding:10px 80px;
+  font-size: 18px;
+  font-family: 'Arial', Regular ;
+  text-align: left;
+  color:#000;
+}
+.esgcontent h2{
+  padding:10px 80px;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Arial', Regular ;
+  color:orangered;
+}
+.esgcontent p a{
+  text-decoration: none;
+  color:blue;
 }
 /* -------------------ESG end-------------------- */
 
