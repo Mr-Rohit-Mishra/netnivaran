@@ -126,6 +126,12 @@ p{
 #navul li .dropdown li:hover{
   color: orangered;
 }
+#navul li .dropdown li a{
+  color: #000;
+}
+#navul li .dropdown li a:hover{
+  color: orangered;
+}
 
 #navul li:hover ul.dropdown{
   display: block;
@@ -333,6 +339,96 @@ p{
 }
 /* --------------------------section end-------------------------- */
 
+/* ------------------testimonial start------------------ */
+
+.testimonialcontainer{
+  margin-top: 60px;
+  margin-bottom: 60px;
+  height:800px;
+  z-index: -55;
+}
+
+.testimonialcontainer h2{
+  color:orangered;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Arial', Regular ;
+}
+
+.testimonialslide1,.testimonialslide2,.testimonialslide3,.testimonialslide4,.testimonialslide5,.testimonialslide6,.testimonialslide7,.testimonialslide8,.testimonialslide9,.testimonialslide10{
+  width:400px;
+  height:700px;
+  border: 20px solid white;
+  padding:20px;
+  background-repeat: no-repeat;
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  background-color:whitesmoke;
+}
+
+/* .testimonialslide1{
+  background-color:whitesmoke;
+  
+}
+.testimonialslide2{
+  background-color: #b03c00;
+}
+.testimonialslide3{
+  background-color:pink;
+}
+.testimonialslide4{
+  background-color:green;
+}
+.testimonialslide5{
+  background-color:gray;
+}
+.testimonialslide6{
+  background-color:purple;
+}
+.testimonialslide7{
+  background-color:black;
+}
+.testimonialslide8{
+  background-color:yellow;
+}
+.testimonialslide9{
+  background-color:salmon;
+}
+.testimonialslide10{
+  background-color:cadetblue;
+} */
+
+.testimonialslide1 h4,.testimonialslide2 h4,.testimonialslide3 h4,.testimonialslide4  h4 ,.testimonialslide5   h4,.testimonialslide6   h4,.testimonialslide7 h4 ,.testimonialslide8 h4,.testimonialslide9 h4,.testimonialslide10 h4{
+  color:blue;
+  font-size: 22px;
+  font-family: 'Arial', Regular ;
+}
+.testimonialslide1 h6,.testimonialslide2 h6,.testimonialslide3 h6,.testimonialslide4   h6,.testimonialslide5  h6 ,.testimonialslide6  h6 ,.testimonialslide7 h6 ,.testimonialslide8 h6,.testimonialslide9 h6,.testimonialslide10 h6{
+  color:#000;
+  font-size: 18px;
+  font-family: 'Arial', Regular ;
+}
+.testimonialslide1  p,.testimonialslide2  p,.testimonialslide3  p,.testimonialslide4    p,.testimonialslide5   p ,.testimonialslide6    p,.testimonialslide7   p,.testimonialslide8  p,.testimonialslide9  p,.testimonialslide10 p{
+  color:#000;
+  font-size: 16px;
+  font-family: 'Arial', Regular ;
+}
+.testimonialslide1  .testimonialbadge,.testimonialslide2  .testimonialbadge,.testimonialslide3  .testimonialbadge,.testimonialslide4    .testimonialbadge,.testimonialslide5   .testimonialbadge ,.testimonialslide6    .testimonialbadge,.testimonialslide7   .testimonialbadge,.testimonialslide8  .testimonialbadge,.testimonialslide9  .testimonialbadge,.testimonialslide10 .testimonialbadge{
+  background-color: #000;
+  align-items: baseline;
+  border-radius: 50px;
+  padding:20px;
+}
+.testimonialslide1  #weblink,.testimonialslide2  #weblink,.testimonialslide3  #weblink,.testimonialslide4    #weblink,.testimonialslide5   #weblink ,.testimonialslide6    #weblink,.testimonialslide7   #weblink,.testimonialslide8  #weblink,.testimonialslide9  #weblink,.testimonialslide10 #weblink{
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+/* ------------------testimonial end------------------ */
 
 /* ---------------- main start start ----------------*/
 .booking-container{
@@ -582,3 +678,32 @@ iframe{
 }
 
 /*---------------- footer start ----------------*/
+
+/* ------------------client section-------------------- */
+
+.clientsection{
+  padding-top: 6rem;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 60px;
+  background-color:#ddbfa061;
+}
+.clientsection h2{
+  
+  padding:10px 80px;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Arial', Regular ;
+  color:orangered;
+}
+.clientsection p{
+  font-size: 18px;
+  padding:10px 0px;
+  font-family: 'Arial', Regular ;
+  text-align: left;
+  color:#000;
+}
+
+.clientsection img{
+  width:100%;
+}

@@ -53,12 +53,7 @@ export default class Header extends Component {
               <li>Team Management</li>
             </ul>
           </li>
-          <li><NavLink to="/">Happy People &#11167;</NavLink>
-            <ul className="dropdown">
-              <li>Our Clients</li>
-              <li>Testimonials</li>
-            </ul>
-          </li>
+          <li><NavLink to="/clients">Our Clients</NavLink></li>
           <li><NavLink to="/"><button type="button" className="contactus">Contact Us</button></NavLink></li>
           <img src="bar.png" alt="images" id="remove"/>
         </ul>
