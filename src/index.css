@@ -145,9 +145,7 @@ p{
 #navul a:hover{
   color:orangered;
 }
-#remove{
-  display:none;
-}
+
 
 
 @media only screen and (max-width: 1200px) {
@@ -166,7 +164,7 @@ p{
     text-align: center;
     align-items: center;
     margin:auto; 
-    display:none;/****remove this to see navul*******************************************************************/
+    display:block;
   }
 
   #navul li{
@@ -176,16 +174,6 @@ p{
   #check:checked ~ ul{
     left:0;
   }
-
-  #remove{
-    display:block;
-    border:1px solid white;
-    padding:0.5rem;
-    border-radius: 50%;
-  }
-
-  
-
   
 }
 
@@ -365,18 +353,18 @@ p{
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  background-color:whitesmoke;
 }
 
-/* .testimonialslide1{
-  background-color:whitesmoke;
+.testimonialslide1{
+  
+  background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
   
 }
 .testimonialslide2{
-  background-color: #b03c00;
+  background-color: #b03c0066;
 }
 .testimonialslide3{
-  background-color:pink;
+  background-color:#ffc0cb6e;
 }
 .testimonialslide4{
   background-color:green;
@@ -398,7 +386,7 @@ p{
 }
 .testimonialslide10{
   background-color:cadetblue;
-} */
+}
 
 .testimonialslide1 h4,.testimonialslide2 h4,.testimonialslide3 h4,.testimonialslide4  h4 ,.testimonialslide5   h4,.testimonialslide6   h4,.testimonialslide7 h4 ,.testimonialslide8 h4,.testimonialslide9 h4,.testimonialslide10 h4{
   color:blue;
