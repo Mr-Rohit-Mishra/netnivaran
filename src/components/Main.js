@@ -256,70 +256,130 @@ function ReactSimplyCarouselExample() {
             <h6>Executive Secretary to Mr. Arjun Wallia(Group Founder & Chairman, The Walsons Group)</h6>
             <p>We are happy with the services of NetNivaran. They have given us the necessary support. The team is efficient and prompt. We wish the team progress and look forward to working together in times to come.</p>
             <NavLink to="www.walsonsgroup.com" alt="weblink" target="blank" id="weblink">www.walsonsgroup.com</NavLink>
-            <badge type="badge" className="testimonialbadge">&#11088;&#11088;&#11088;&#11088;</badge>
+            <badge type="badge" className="testimonialbadge">
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/whitestar.png'} alt="star"/>
+            </badge>
           </div>
           <div className="testimonialslide2">
             <h4>Ramesh K Khattar</h4>
             <h6>(Proprietor)Radiant Elastochem</h6>
             <p>First of all congratulations to you and your entire team for reaching a milestone of two decades of solutions providers and wish you all to complete many more in times to come. It has been really nice dealing with you all during my association of nineteen years and appreciate your dedication and keenness to surpass customers expectations by providing timely and excellent services with good communication skills and subject knowledge. Look forward being associated for longer times and convey our best wishes for your entire team for all times to come. Keep it up and stay blessed always.</p>
             <NavLink to="www.radiantelastochem.org" alt="weblink" target="blank" id="weblink">www.radiantelastochem.org</NavLink>
-            <badge type="badge" className="testimonialbadge">&#11088;&#11088;&#11088;&#11088;&#11088;</badge>
+            <badge type="badge" className="testimonialbadge">
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+            </badge>
           </div>
           <div className="testimonialslide3">
             <h4>Neha Arora</h4>
             <h6>Assistant Manager Human Resources Virtuoso Staffing Solutions (P) Ltd</h6>
             <p>"NetNivaran has provided us with top-notch services and has been our preferred vendor for many years. In the past 5 years of our association, their team has been prompt in responding and highly committed to delivering seamless services. They have obliged to all our requests and have helped us with all our queries time and again. We recommend NetNivaran to anyone who is looking for reliable digital services.”</p>
             <NavLink to="www.virtuosorecruitment.com" alt="weblink" target="blank" id="weblink">www.virtuosorecruitment.com</NavLink>
-            <badge type="badge" className="testimonialbadge">&#11088;&#11088;&#11088;&#11088;&#11088;</badge>
+            <badge type="badge" className="testimonialbadge">
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+            </badge>
           </div>
           <div className="testimonialslide4">
             <h4>Manu Arya</h4>
             <h6>Senior Manager| Information Technology Frog Cellsat Ltd</h6>
             <p>I would like to take this opportunity to express our sincerest gratitude for your exceptional support and partnership throughout the last 10 years.Your loyalty and commitment have been great in helping us reach this significant milestone. Thank you once again for your support and partnership. We look forward to many more years of success together.</p>
             <NavLink to="www.frogcellsat.com" alt="weblink" target="blank" id="weblink">www.frogcellsat.com</NavLink>
-            <badge type="badge" className="testimonialbadge">&#11088;&#11088;&#11088;&#11088;&#11088;</badge>
+            <badge type="badge" className="testimonialbadge">
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+            </badge>
           </div>
           <div className="testimonialslide5">
             <h4>Ved Prakash Mishra</h4>
             <h6>(IT Manager ) Virola International</h6>
             <p>We have been using web services from NetNivaran for the past few years and are happy to see them grow</p>
             <NavLink to="www.virolaindia.com" alt="weblink" target="blank" id="weblink">www.virolaindia.com</NavLink>
-            <badge type="badge" className="testimonialbadge">&#11088;&#11088;&#11088;&#11088;</badge>
+            <badge type="badge" className="testimonialbadge">
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/whitestar.png'} alt="star"/>
+            </badge>
           </div>
           <div className="testimonialslide6">
             <h4>Meena Jain</h4>
             <h6>Executive Assistant Ipower Batteries Pvt Ltd</h6>
             <p>We developed a great relationship with NetNivaran because of their dedicated support and unparalleled digital services.We appreciate NetNivaran's attention to details and creative approach to building our website.We have been using web services from NetNivaran for the past few years and are happy to see them grow. Peace of mind and easy working with the NetNivaran team. NetNivaran has our trust, it's been … year we have been associated with them.</p>
             <NavLink to="www.ipowerbatteries.in" alt="weblink" target="blank" id="weblink">www.ipowerbatteries.in</NavLink>
-            <badge type="badge" className="testimonialbadge">&#11088;&#11088;&#11088;&#11088;&#11088;</badge>
+            <badge type="badge" className="testimonialbadge">
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+            </badge>
           </div>
           <div className="testimonialslide7">
             <h4>Maggie Gonsalves</h4>
             <h6>Executive Secretary to Mr. Arvind Khanna Umeed</h6>
             <p>Umeed has been associated with NetNivaran for the past many years and their services and the support staff has always been very supportive and dedicated with a quick response and solution. I wish them the very best for completion of 23 years and for their future.</p>
             <NavLink to="www.arvindkhanna.com" alt="weblink" target="blank" id="weblink">www.arvindkhanna.com</NavLink>
-            <badge type="badge" className="testimonialbadge">&#11088;&#11088;&#11088;&#11088;&#11088;</badge>
+            <badge type="badge" className="testimonialbadge">
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+            </badge>
           </div>
           <div className="testimonialslide8">
             <h4>Maroof Hasan</h4>
             <h6>Sr. Manager-HR NF Infratech Service Pvt. Limited</h6>
             <p>We are highly satisfied with the quality of service and support provided by Netnivaran team.</p>
             <NavLink to="www.nfinfratech.com" alt="weblink" target="blank" id="weblink">www.nfinfratech.com</NavLink>
-            <badge type="badge" className="testimonialbadge">&#11088;&#11088;&#11088;&#11088;&#11088;</badge>
+            <badge type="badge" className="testimonialbadge">
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+            </badge>
           </div>
           <div className="testimonialslide9">
             <h4>Shekhar Pathran</h4>
             <h6>(IT Manager ) Oilex Trading Pvt Ltd.</h6>
             <p>We maintained a great relationship with NetNivaran because of their dedicated support and unparalleled digital services. We appreciate NetNivaran’s attention to details and creative approach to building our website.We have been using web services from NetNivaran for the past 7-8 years and are happy to see them grow. Peace of mind and easy working with the NetNivaran team.NetNivaran has our trust, it's been … year we have been associated with them.</p>
             <NavLink to="www.oilexindia.in" alt="weblink" target="blank" id="weblink">www.oilexindia.in</NavLink>
-            <badge type="badge" className="testimonialbadge">&#11088;&#11088;&#11088;&#11088;&#11088;</badge>
+            <badge type="badge" className="testimonialbadge">
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+            </badge>
           </div>
           <div className="testimonialslide10">
             <h4>Meraj Ahmed</h4>
             <h6>Executive Secretary to Director General (Indian Sugar Mills Association)</h6>
             <p>We developed a great relationship with NetNivaran because of their dedicated support and unparalleled digital services.NetNivaran has our trust, it's been about 15 years since we have been associated with them.</p>
             <NavLink to="www.indiansugar.com" alt="weblink" target="blank" id="weblink">www.indiansugar.com</NavLink>
-            <badge type="badge" className="testimonialbadge">&#11088;&#11088;&#11088;&#11088;&#11088;</badge>
+            <badge type="badge" className="testimonialbadge">
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+              <img className="star" src={process.env.PUBLIC_URL + '/images/filledstar.png'} alt="star"/>
+            </badge>
           </div>
         </ReactSimplyCarousel>
         

@@ -54,7 +54,7 @@ export default class Header extends Component {
             </ul>
           </li>
           <li><NavLink to="/clients">Our Clients</NavLink></li>
-          <li><NavLink to="/"><button type="button" className="contactus">Contact Us</button></NavLink></li>
+          <li><NavLink to="/Contactus"><button type="button" className="contactus">Contact Us</button></NavLink></li>
           
         </ul>
         
