@@ -88,7 +88,8 @@ p{
 
 .mainlogo{
   margin-left:1.5rem;
-  width:150px;
+  width:130px;
+  padding:5px 0px;
   height:auto;
 }
 
@@ -612,7 +613,7 @@ textarea{
 
 /*------------------- contactus start------------------- */
 .contactcontainer{
-  background-color: #000;
+  background-color: #4b4848;
   padding-top: 8rem;
 }
 
